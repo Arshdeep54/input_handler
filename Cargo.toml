@@ -1,0 +1,12 @@
+[package]
+name = "input_handler"
+version = "0.1.0"
+edition = "2021"
+description = "Reusable input handler module"
+license = "MIT"
+repository = "https://github.com/Arshdeep54/input_handler"
+
+[dependencies]
+regex = "1"
+libc = "0.2"
+termios = "0.3"
