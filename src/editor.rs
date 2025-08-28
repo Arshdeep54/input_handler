@@ -42,7 +42,7 @@ impl Editor {
         self.current_buffer.clear();
         self.cursor_position = 0;
 
-        print!("{}", prompt);
+        print!("{prompt}");
         io::stdout().flush()?;
 
         loop {
